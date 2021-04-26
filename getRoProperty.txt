@@ -1,0 +1,15 @@
+'getROproperty returns the value of any runtime object property value
+'getTOproperty retuns the value of any object property from object repository. do not neet to run
+
+SystemUtil.Run "C:\Program Files (x86)\HPE\Unified Functional Testing\samples\Flights Application\FlightsGUI.exe"
+
+'a=WpfWindow("HPE MyFlight Sample Applicatio").WpfComboBox("fromCity").GetROProperty("devname")
+
+c=WpfWindow("HPE MyFlight Sample Applicatio").GetROProperty("wpftypename")
+msgbox c
+
+'b=WpfWindow("HPE MyFlight Sample Applicatio").WpfComboBox("fromCity").GetTOProperty("devname")
+
+
+'msgbox a
+'msgbox b
